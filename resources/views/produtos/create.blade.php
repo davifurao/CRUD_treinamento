@@ -7,7 +7,8 @@
     <title>Cadastro de um novo produto</title>
 </head>
 <body>
-    <form action="">
+    
+    <form action="{{route('registrar_produto')}}" method="POST">
         <label for="">Nome</label><br/>
         <input type="text" name="nome"><br/>
         <label for="">Custo</label><br/>
